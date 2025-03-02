@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.stream.Collectors;
 
 enum Priority {
     LOW, MEDIUM, HIGH
@@ -92,7 +93,7 @@ class TaskManager {
     // 6. Find the highest-priority unfinished task
     public List<Task> getMostUrgentTasks() {
         // TODO: Implement logic to find most urgent tasks
-        return new ArrayList<>();
+        return tasks.stream().filter(t -> t.getPriority()==Priority.HIGH).collect(Collectors.toList());
     }
 
     // 7. Count tasks per category
