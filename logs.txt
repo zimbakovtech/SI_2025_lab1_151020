@@ -1,0 +1,16 @@
+(base) stefanandonov@Stefans-MacBook-Pro-3 SI_2025_lab1_151020 % git log --oneline --graph --all
+*   7df770e (HEAD -> master, origin/master, origin/HEAD) Merge branch '2-find-all-completed-tasks'
+|\
+| * 58fadc4 (origin/2-find-all-completed-tasks, 2-find-all-completed-tasks) implement getCompletedTasks
+* |   e9abe1f Merge pull request #11 from stefanandonov/4-sort-tasks-by-priority
+|\ \
+| * | 6b401ea (origin/4-sort-tasks-by-priority, 4-sort-tasks-by-priority) Implement sortTasksByPriority
+| |/
+* |   883fee3 Merge pull request #12 from stefanandonov/6-find-the-highest-priority-unfinished-tasks
+|\ \
+| |/
+|/|
+| * 02fa9c8 (origin/6-find-the-highest-priority-unfinished-tasks, 6-find-the-highest-priority-unfinished-tasks) Implement getMostUrgentTasks
+|/
+* 5631e46 Add starter code
+* 1ecb06b Initial commit
